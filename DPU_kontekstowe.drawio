@@ -1,0 +1,79 @@
+<mxfile host="app.diagrams.net" modified="2024-04-26T08:13:34.747Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="wij5g0kBQGnE_rL7hy6I" version="24.3.0" type="device">
+  <diagram name="Strona-1" id="iQwsmwSvc1lP2jneD7l5">
+    <mxGraphModel dx="1434" dy="3082" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="88rlvgtSDhIF_v4ktwkA-80" value="&lt;span style=&quot;font-size: 22px;&quot;&gt;System Zarządzania Paczkami&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;glass=0;fillColor=default;" parent="1" vertex="1">
+          <mxGeometry x="505" y="-850" width="510" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="88rlvgtSDhIF_v4ktwkA-84" value="Klient" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="400" y="-740" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="88rlvgtSDhIF_v4ktwkA-85" value="Kurier" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="990" y="-460" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="88rlvgtSDhIF_v4ktwkA-87" value="System kart debetowych" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="675" y="-450" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="88rlvgtSDhIF_v4ktwkA-88" value="Operator systemu" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;direction=east;" parent="1" vertex="1">
+          <mxGeometry x="1090" y="-800" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="88rlvgtSDhIF_v4ktwkA-89" value="Automat paczkowy" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="820" y="-1080" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="88rlvgtSDhIF_v4ktwkA-98" value="System kart kredytowych" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="830" y="-450" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="88rlvgtSDhIF_v4ktwkA-100" value="System blik" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="520" y="-450" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="88rlvgtSDhIF_v4ktwkA-112" value="Pracownik obslugi&amp;nbsp;&lt;div&gt;klienta&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="1090" y="-610" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="88rlvgtSDhIF_v4ktwkA-115" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="88rlvgtSDhIF_v4ktwkA-112" target="88rlvgtSDhIF_v4ktwkA-80" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1155" y="10" as="sourcePoint" />
+            <mxPoint x="1245" y="-465" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WYoZ2InWoUu7z0oQu1MN-2" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="88rlvgtSDhIF_v4ktwkA-88" target="88rlvgtSDhIF_v4ktwkA-80">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="710" y="-580" as="sourcePoint" />
+            <mxPoint x="760" y="-630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WYoZ2InWoUu7z0oQu1MN-3" value="" style="endArrow=classic;html=1;rounded=0;entryX=-0.006;entryY=0.411;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="88rlvgtSDhIF_v4ktwkA-84" target="88rlvgtSDhIF_v4ktwkA-80">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="710" y="-580" as="sourcePoint" />
+            <mxPoint x="760" y="-630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WYoZ2InWoUu7z0oQu1MN-4" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.178;entryY=1.008;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="88rlvgtSDhIF_v4ktwkA-100" target="88rlvgtSDhIF_v4ktwkA-80">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="-500" as="sourcePoint" />
+            <mxPoint x="482" y="-487" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WYoZ2InWoUu7z0oQu1MN-5" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.386;entryY=0.997;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="88rlvgtSDhIF_v4ktwkA-87" target="88rlvgtSDhIF_v4ktwkA-80">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="710" y="-580" as="sourcePoint" />
+            <mxPoint x="760" y="-630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WYoZ2InWoUu7z0oQu1MN-6" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.614;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="88rlvgtSDhIF_v4ktwkA-98" target="88rlvgtSDhIF_v4ktwkA-80">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="710" y="-580" as="sourcePoint" />
+            <mxPoint x="760" y="-630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WYoZ2InWoUu7z0oQu1MN-7" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="88rlvgtSDhIF_v4ktwkA-85" target="88rlvgtSDhIF_v4ktwkA-80">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="710" y="-580" as="sourcePoint" />
+            <mxPoint x="760" y="-630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
